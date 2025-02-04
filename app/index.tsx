@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { View, TouchableOpacity, ScrollView, Alert } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { MaterialIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Expense, Transaction } from './types';
@@ -206,7 +208,9 @@ export default function Index() {
   }
 
   return (
+    <SafeAreaProvider>
     <View className={`flex-1 ${themeStyles.bg}`}>
+      <StatusBar/>
       <Header
         balance={balance}
         themeStyles={themeStyles}
@@ -270,5 +274,6 @@ export default function Index() {
         themeStyles={themeStyles}
       />
     </View>
+    </SafeAreaProvider>
   );
 }

@@ -30,7 +30,7 @@ export default function ExpenseList({
       </Text>
       <View className="flex-col space-y-4">
         {expenses.map((expense: Expense) => (
-          <View key={expense.id} className="w-full">
+          <View key={expense.id} className="w-full mb-6">
             <TouchableOpacity
               className={`p-4 rounded-lg items-center ${themeStyles.card}`}
               onPress={() => setSelectedExpense(expense)}
