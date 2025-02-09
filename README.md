@@ -6,7 +6,7 @@
 
 A modern mobile application for tracking NCMC card expense and remaining balance, built with React Native and TypeScript.
 
-![App Screenshot]([https://via.placeholder.com/400x800/008080/FFFFFF?text=BalanceCheck+Preview](https://drive.google.com/file/d/1BiCUiDJHnM-OeBercewtYym9b9p34R97/view?usp=sharing)) 
+![App Screenshot](https://drive.google.com/file/d/1BiCUiDJHnM-OeBercewtYym9b9p34R97/view?usp=sharing) 
 *(Replace with actual screenshots)*
 
 ## Features
