@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![AsyncStorage](https://img.shields.io/badge/AsyncStorage-6DB33F?style=for-the-badge&logo=react&logoColor=white)](https://react-native-async-storage.github.io/async-storage/)
 
-A modern mobile application for tracking NCMC card expense and remaining balance, built with React Native and TypeScript.
+A modern mobile application for tracking travel card expense and remaining balance, built with React Native and TypeScript.
 
 <p float="center">
 <img  width="200"  src="https://github.com/Charanselvam/balance-checker/blob/main/assets/app%20preview%201.jpg?raw=true">
